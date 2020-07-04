@@ -1,0 +1,20 @@
+<web-app>
+		<servlet>
+			<servlet-name>akash</servlet-name>
+			<servlet-class>Addition</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>akash</servlet-name>
+			<url-pattern>/sum</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<servlet-name>Sub</servlet-name>
+			<servlet-class>Sub</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>Sub</servlet-name>
+			<url-pattern>/sub</url-pattern>
+		</servlet-mapping>
+</web-app>
